@@ -12,7 +12,7 @@ Below is the detailed requirement specification for this application. The specif
 ### Planning workouts
 This section deals with the capability of a user to plan their workouts by creating workout routines, creating workout schedules and applying the routines in the schedules
 
-As a user I would like to create one or more workout routines
+- As a user I would like to create one or more workout routines
     - For each workout routine that I create , I would like to specify a name
     - For each workout routine that I create,  I would like to define the composition of my workout routine by
         - Choosing which type of workouts I am going to cover as part of the routine
@@ -30,10 +30,10 @@ As a user I would like to create one or more workout routines
                 - minutes
             - Workouts can have intensity, duration or both, so I , as a user can specify either intensity or duration for each workout
 
-As a user I would like to modify or delete my workout routines
+- As a user I would like to modify or delete my workout routines
     - When a workout routine is modified, the changes should apply to all future, un-logged workouts in the schedule. Past, logged workouts should remain unchanged.
 
-As a user I would like to create my recurring workout schedule by selecting
+- As a user I would like to create my recurring workout schedule by selecting
     - The number of days in a week that I would like to workout
     - The time of the day in which I prefer to workout
     - For each day that I plan to workout in a week, I would like to apply one of my workout routines that I created
@@ -41,9 +41,9 @@ As a user I would like to create my recurring workout schedule by selecting
 
 ### Logging workouts
 
-As a user, I would like to log one or more workout sessions in a day
+- As a user, I would like to log one or more workout sessions in a day
 
-As a user, If I have a workout schedule created along with the workout routines, I would like to log a workout session for a day against the routine as per my schedule
+- As a user, If I have a workout schedule created along with the workout routines, I would like to log a workout session for a day against the routine as per my schedule
     - I would like to log if I had worked out on a particular day
     - I would like to log which workout routine I followed on a particular day
         - If I select a routine, I should be able to log the intensity and/or duration in many ways
@@ -56,24 +56,24 @@ As a user, If I have a workout schedule created along with the workout routines,
         - I should also be able to create a new routine out of the logged workouts, intensity and duration on a particular day, and save it, which could be used in my schedule or reused for another day.
     - I would like to see all my logged daily workouts in detail in a screen in the app
 
-As a user, I would like to edit a logged workout session by adding, modifying or deleting workouts in that session
+- As a user, I would like to edit a logged workout session by adding, modifying or deleting workouts in that session
 
-As a user, I would like to log the state of my mind after the workout session. These are predefined states and could be like happy, content, calm, exhausted, frustrated etc.
+- As a user, I would like to log the state of my mind after the workout session. These are predefined states and could be like happy, content, calm, exhausted, frustrated etc.
 
 ### Monitoring Progress
 
-As a user, I would like to continuously monitor my progress with respect to my workouts, routines and schedules in the application.
-- Though workouts are driven by routines, I would like the log data to be avaible for each individual workout level, so that they could be aggregated for new usecases
-- I would like to look at the tragectory of the intensity and duration of the workouts in a graph for each workout, over a period of time
-    - What is the intensity of a workout in terms of total volume per day/week
-        - Volume = Weight x reps x sets
-    - What is the total duration of a workout over a day/week
-    - i.e. For each workout, I would like to have stats graphed per day/week
-- I would like to see graphical stats like
-    - How many days did I workout per week/month
-    - How many hours did I spend working out per week/month
-    - Which routine is being followed by me the most per week/month
-
+- As a user, I would like to continuously monitor my progress with respect to my workouts, routines and schedules in the application.
+    - Though workouts are driven by routines, I would like the log data to be avaible for each individual workout level, so that they could be aggregated for new usecases
+    - I would like to look at the tragectory of the intensity and duration of the workouts in a graph for each workout, over a period of time
+        - What is the intensity of a workout in terms of total volume per day/week
+            - Volume = Weight x reps x sets
+        - What is the total duration of a workout over a day/week
+            - i.e. For each workout, I would like to have stats graphed per day/week
+    - I would like to see graphical stats like
+        - How many days did I workout per week/month
+        - How many hours did I spend working out per week/month
+        - Which routine is being followed by me the most per week/month
+    
 ### Data Export and Import
 
 - As a user, I would like the ability to export all my data (routines, schedules, workout logs) in a zip file
